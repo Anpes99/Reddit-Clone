@@ -6,7 +6,7 @@ import TrendingFeed from "../components/TrendingFeed";
 
 export default function Home() {
   return (
-    <div className="overflow-hidden bg-gray-300">
+    <div className=" bg-gray-300">
       <Head>
         <title>Reddit 2.0</title>
       </Head>

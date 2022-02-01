@@ -7,8 +7,8 @@ const Header = () => {
   const [dropDownVisible, setDropDownVisible] = useState(false);
 
   return (
-    <div className="h-12 bg-gray-50 flex items-center justify-between">
-      <div className="mx-5 h-full flex items-center space-x-1 cursor-pointer">
+    <div className="flex mb-20 flex-col sm:flex-row h-12 bg-gray-50  items-center justify-between">
+      <div className="h-full flex items-center space-x-1 cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="50"
@@ -40,7 +40,7 @@ const Header = () => {
           </svg>
         </div>
       </div>
-      <div className=" flex items-center  border  rounded-sm relative bg-gray-100 flex-grow max-w-3xl ">
+      <div className="w-full sm:w-auto flex items-center  border  rounded-sm relative bg-gray-100 flex-grow sm:max-w-3xl ">
         <SearchIcon className="pl-4 h-7 text-gray-400 absolute" />
         <input
           className="flex flex-grow bg-gray-100 p-2 text-gray-700 pl-20 hover:bg-white focus:bg-white "
@@ -68,7 +68,7 @@ const Header = () => {
       <div
         className={`flex right-0   ${
           dropDownVisible
-            ? "top-9 opacity-1"
+            ? "top-20 sm:top-9 opacity-1"
             : "w-0 opacity-0 overflow-hidden top-14"
         } absolute  flex-col bg-gray-50 text-sm font-medium select-none duration-200 z-50`}
       >

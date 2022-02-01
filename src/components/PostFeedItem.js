@@ -6,7 +6,7 @@ import skyrim from "../../public/fake data/skyrim.png";
 
 const PostFeedItem = (props) => {
   return (
-    <div className="h-min-content flex flex-col sm:flex-row w-full  sm:h-96 bg-white border mb-4">
+    <div className="flex flex-col sm:flex-row w-full  sm:h-96 bg-white border mb-4">
       <div className=" hidden sm:flex flex-col items-center bg-gray-100 w-20">
         <ArrowSmUpIcon className="h-7 text-gray-400 hover:text-red-500" />
         <p className=" px-1 font-bold text-sm">10.0k</p>
