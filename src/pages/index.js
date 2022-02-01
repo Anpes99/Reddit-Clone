@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="overflow-hidden bg-gray-300">
       <Head>
-        <title>Amazon 2.0</title>
+        <title>Reddit 2.0</title>
       </Head>
 
       <Header />
