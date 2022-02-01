@@ -2,7 +2,7 @@
 
 ### demo: https://reddit1000.herokuapp.com/
 
-### TailwindCSS, React.JS, Next.JS
+### TailwindCSS, React.JS, Next.JS, Sequelize
 
 ### start up commands:
 
