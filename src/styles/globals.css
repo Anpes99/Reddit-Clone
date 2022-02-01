@@ -9,4 +9,7 @@
   .link {
     @apply hover:bg-blue-400 p-2 pl-4 pr-5 cursor-pointer;
   }
+  .join-btn {
+    @apply py-0.5 px-4 rounded-2xl text-sm font-semibold transition-all bg-blue-500 text-white hover:bg-blue-400;
+  }
 }

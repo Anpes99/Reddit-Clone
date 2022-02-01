@@ -13,7 +13,7 @@ export default function Home() {
 
       <Header />
       <main
-        className="max-w-screen-xl mx-auto md:p-5
+        className="max-w-screen-lg mx-auto md:p-5
       pt-3"
       >
         <TrendingFeed />
