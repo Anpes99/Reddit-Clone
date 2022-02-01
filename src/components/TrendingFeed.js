@@ -18,9 +18,9 @@ const TrendingFeed = (props) => {
     return null;
   }
   return (
-    <div className="">
+    <div className="w-full">
       <p className="pl-4 font-medium text-gray-700">Trending today</p>
-      <div className="grid grid-cols-4 md:grid-cols-3 gap-3 p-4 lg:grid-cols-4">
+      <div className="grid grid-cols-4 md:grid-cols-3 gap-3 py-4 lg:grid-cols-4">
         <div className="  col-span-4 sm:col-span-2 md:col-auto">
           <TrendingFeedItem data={newsArticles[0]} />
         </div>

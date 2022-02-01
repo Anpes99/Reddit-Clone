@@ -49,10 +49,10 @@ const Header = () => {
         />
       </div>
       <div className="flex space-x-3 p-4">
-        <button className="btn hover:bg-blue-50 text-blue-500 border-blue-500">
+        <button className="hidden sm:inline-block btn hover:bg-blue-50 text-blue-500 border-blue-500">
           Log In
         </button>
-        <button className="btn bg-blue-500 text-white  hover:bg-blue-400">
+        <button className="hidden sm:inline-block btn bg-blue-500 text-white  hover:bg-blue-400">
           Sign Up
         </button>
         <div
